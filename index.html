@@ -10,14 +10,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="customStyles.css">
 	</head>
 	<body class="is-preload">
 
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li><a href="#top">Topa</a></li>
-					<li><a href="#work">Work</a></li>
+					<li><a href="#top">About Me</a></li>
+					<li><a href="#work">Skills</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
@@ -26,16 +27,17 @@
 		<!-- Home -->
 			<article id="top" class="wrapper style1">
 				<div class="container">
-					<div class="row">
+					<div id="headerContainer" class="row">
 						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/1658276981661.jpeg" alt="" /></span>
 						</div>
-						<div class="col-8 col-7-large col-12-medium">
+						<div id='topHeader' class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>Hi. I'm <strong>Jane Doe</strong>.</h1>
+								<h1>Hi. I'm <strong>Ignacio García Riestra</strong> </h1>
+								<h2>{ FullStack Developer }</h2>
 							</header>
-							<p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license">CCA license</a>.</p>
-							<a href="#work" class="button large scrolly">Learn about what I do</a>
+							<p>I decided that I would dedicate myself fully to this even before finishing my introductory programming course. It was love at first sight. <br> I enjoyed like a child each new thing I was learning and I even managed to assimilate the moments of frustration as part of the fun. Then I understood that this is definitely for me</p>
+							<a href="#work" class="button large scrolly">Learn about my skills</a>
 						</div>
 					</div>
 				</div>
@@ -45,10 +47,59 @@
 			<article id="work" class="wrapper style2">
 				<div class="container">
 					<header>
-						<h2>Here's all the stuff I do.</h2>
-						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
+						<h2>Soft skills</h2>
+						<div class="skills">
+							<span>+ Self-taught</span>
+							<span>+ Persevering</span>
+							<span>+ Highly adaptable</span>
+							<span>+ Fast learner</span>
+						</div>
 					</header>
-					<div class="row aln-center">
+					<header>
+						<h2>Tech skills</h2>
+						<div class="skills">
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react"/> 
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs"/>
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="express"/>
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql"/> 
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="sass"/> 
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux"/> 
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap"/>
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass"/> 
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3"/>
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5"/>
+							</span>
+							<span>
+								<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript"/>
+							</span>
+							<span>
+								<img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman"/> 
+							</span>
+							<span>
+								<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/>
+							</span>
+						</div>
+					</header>
+					<!-- <div class="row aln-center">
 						<div class="col-4 col-6-medium col-12-small">
 							<section class="box style1">
 								<span class="icon featured fa-comments"></span>
@@ -70,9 +121,9 @@
 								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
 							</section>
 						</div>
-					</div>
+					</div> -->
+
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
 						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
 					</footer>
 				</div>
@@ -82,55 +133,81 @@
 			<article id="portfolio" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Here’s some stuff I made recently.</h2>
-						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+						<h2>My recent projects</h2>
 					</header>
 					<div class="row">
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-4 col-4-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<h3><a href="#">Magna feugiat</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="#" class="image featured"><img src="images/AppointmentExample.png" alt="" /></a>
+								<h3><a href="#">miTurno</a></h3>
+								<p>Appointments management system<br>
+								Team: 
+									<a href="https://www.linkedin.com/in/evange-fernandez/" target="_blank">Evangelina Fernández</a><br>
+									<a href="https://www.linkedin.com/in/matias-jaliff/" target="_blank">Matias Jaliff</a><br>
+									<a href="https://www.linkedin.com/in/yamilaortiztoscano/" target="_blank">Yamila Ortiz Toscano</a><br>
+									<a href="https://www.linkedin.com/in/franndemon/" target="_blank">Franco Demontis</a><br>
+									<a href="https://www.linkedin.com/in/ignacio-garcia-riestra/" target="_blank">Me :)</a><span> - Frontend</span>
+								</p>
+								<div class="projectLinks">
+									<a href="https://youtu.be/e4aINSS2CXM"
+									target="_blank"> 
+										<img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg">
+									</a>
+									<a href="https://github.com/ignacio-garcia-riestra/Cruce"
+									target="_blank"> 
+										<img src="https://www.vectorlogo.zone/logos/github/github-icon.svg">
+									</a>
+								</div>
+
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-4 col-4-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<h3><a href="#">Veroeros primis</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="#" class="image featured"><img src="images/movieFinder04.png" alt="" /></a>
+								<h3><a href="#">Movie Finder</a></h3>
+								<p>TMDB API-consuming SPA</p>
+								<P>(WORK IN PROGRESS!!)</P>
+								<p>Team:
+									<a href="https://www.linkedin.com/in/ignacio-garcia-riestra/" target="_blank">Just me :)</a>
+								</p>
+								<div class="projectLinks" id="finder">
+									<a href="https://youtu.be/PyL-4dzYCk8"
+									target="_blank">
+										<img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg">
+									</a>
+									<a href="https://github.com/ignacio-garcia-riestra/Movie-Finder"
+									target="_blank">
+										<img src="https://www.vectorlogo.zone/logos/github/github-icon.svg">
+									</a>
+								</div>
 							</article>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
+						<div class="col-4 col-4-medium col-12-small">
 							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<h3><a href="#">Lorem ipsum</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-								<h3><a href="#">Tempus dolore</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
-								<h3><a href="#">Feugiat aliquam</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
-							</article>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2">
-								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
-								<h3><a href="#">Sed amet ornare</a></h3>
-								<p>Ornare nulla proin odio consequat.</p>
+								<a href="#" class="image featured"><img src="images/productExample.png" alt="" /></a>
+								<h3><a href="#">Good Vibes</a></h3>
+								<p>musical instruments e-commerce</p>
+								<p>Team: 
+									<a href="https://www.linkedin.com/in/matiasnasif/" target="_blank">Matias Nasif</a><br>
+									<a href="https://www.linkedin.com/in/frediportuguez/" target="_blank">Fredi Portuguez</a><br>
+									<a href="https://www.linkedin.com/in/yamilaortiztoscano/" target="_blank">Yamila Ortiz Toscano</a><br>
+									<a href="https://www.linkedin.com/in/ignacio-garcia-riestra/" target="_blank">Me :)</a><span> - Backend</span>
+								</p>
+								<div class="projectLinks">
+									<a href="https://youtu.be/4JaKoIzHTFI"
+									target="_blank">
+										<img src="https://www.vectorlogo.zone/logos/youtube/youtube-icon.svg">
+									</a>
+									<a href="https://github.com/frediportuguez/e-commerce-2022"
+									target="_blank">
+										<img src="https://www.vectorlogo.zone/logos/github/github-icon.svg">
+									</a>
+								</div>
+
 							</article>
 						</div>
 					</div>
 					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
 						<a href="#contact" class="button large scrolly">Get in touch with me</a>
 					</footer>
 				</div>
@@ -141,11 +218,10 @@
 				<div class="container medium">
 					<header>
 						<h2>Have me make stuff for you.</h2>
-						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="#">
+							<form method="post" action="https://formspree.io/f/xayknjnw">
 								<div class="row">
 									<div class="col-6 col-12-small">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -172,33 +248,12 @@
 							<hr />
 							<h3>Find me on ...</h3>
 							<ul class="social">
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<!--
-								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
-								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
-								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
-								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
-								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
-								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
-								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
-								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
-								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
-								-->
+								<li><a href="https://www.linkedin.com/in/ignacio-garcia-riestra" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/ignacio-garcia-riestra" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							</ul>
 							<hr />
 						</div>
 					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
 				</div>
 			</article>
 

@@ -1546,7 +1546,7 @@ input, select, textarea {
 		}
 
 	form textarea {
-		height: 15em;
+		height: 10em;
 	}
 
 	form .actions:last-child {

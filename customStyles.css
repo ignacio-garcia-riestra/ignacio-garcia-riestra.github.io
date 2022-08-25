@@ -1,0 +1,38 @@
+.skills {
+    flex-flow: row, nowrap;
+    justify-content: space-between;
+    font-size: larger;
+    margin-bottom: 170px;
+}
+
+.skills span {
+    padding: 0px 12px;
+    font-weight: bold;
+}
+
+.skills span img {
+    width: 60px;
+    height: 60px
+}
+
+.projectLinks img {
+    margin: 0 15px;
+    width: 30px;
+    height: 30px
+}
+
+#portfolio h2 {
+    margin-top: -90px;
+}
+
+#portfolio article {
+    height: 522.47px;
+}
+
+.projectLinks {
+    margin-top: -20px;
+}
+
+#finder {
+    margin-top: 40px;
+}
